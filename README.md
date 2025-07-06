@@ -21,15 +21,13 @@ The dataset is split into training and testing sets, with 80% of the data used f
 ## Results
 Both models were evaluated on their predictive performance. The Logistic Regression model showed better results across most metrics on the raw test data.
 
-+----------------------+----------------------+---------------------+
-| Metric               | Gaussian Naive Bayes | Logistic Regression |
-+----------------------+----------------------+---------------------+
-| Accuracy             | 0.62                 | 0.69                |
-| Precision            | 0.60                 | 0.71                |
-| Recall               | 0.27                 | 0.45                |
-| F1 Score             | 0.37                 | 0.56                |
-| ROC AUC              | 0.55                 | 0.64                |
-+----------------------+----------------------+---------------------+
+| Metric               | Gaussian Naive Bayes   | Logistic Regression   |
+|----------------------|------------------------|-----------------------|
+| Accuracy             | 0.62                   | 0.69                  |
+| Precision            | 0.60                   | 0.71                  |
+| Recall               | 0.27                   | 0.45                  |
+| F1 Score             | 0.37                   | 0.56                  |
+| ROC AUC              | 0.55                   | 0.64                  |
 
 While Logistic Regression performed better initially, cross-validation suggested that the Gaussian Naive Bayes model was more robust and less prone to underfitting with each fold.
 
